@@ -1,0 +1,20 @@
+{
+	"exp_name": "test",
+	"time_step": 20,
+	"rnn_unit": 10,
+	"batch_size": 60,   
+	"input_size": 1,  
+	"output_size": 1,    
+	"lr": 0.0006,
+	"max_to_keep": 5,
+	"num_epochs": 200,
+	"num_iter_per_epoch": 20,
+	"t_start": "2013/11/22",
+	"t_end":"2020/1/4",
+	"t_stock":"601318.SS",
+	"p_start": "2013/11/22",
+	"p_end":"2020/1/4",
+	"p_stock":"601318.SS",
+	"predict_n":200,
+	"save_path":"./experiments"
+}
